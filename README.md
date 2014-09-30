@@ -1,4 +1,4 @@
-== Meteor Shared Auth ==
+## Meteor Shared Auth
 
 For situations where you have *multiple meteor applications* running on
 *separate domains* but which share the *same database*, this package allows you
