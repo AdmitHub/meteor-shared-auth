@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('0.9.2');
-  api.use(['application-configuration', 'iron:router', 'templating'], 'client');
+  api.use(['application-configuration', 'iron:router@0.9.3', 'templating'], 'client');
   api.add_files([
     'lib/routes.js',
     'lib/sharedAuthFrame.html',
