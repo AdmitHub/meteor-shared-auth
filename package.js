@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Share login among separate domains.",
-  version: "0.0.1",
+  version: "0.0.2",
   name: "admithub:shared-auth",
-  git: "https://github.com/AdmitHub/meteor-shared-login.git"
+  git: "https://github.com/AdmitHub/meteor-shared-auth.git"
 });
 
 Package.onUse(function (api) {
