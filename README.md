@@ -8,6 +8,7 @@ I will be automatically logged in to the other.
 All of the meteor applications must use Meteor.settings, and define the public
 setting ``sharedAuthDomains``, e.g.:
 
+    // settings.json
     {
         "public": {
             "sharedAuthDomains": ["http://example.com", "http://example2.com"]
@@ -16,3 +17,9 @@ setting ``sharedAuthDomains``, e.g.:
 
 Each application will attempt to share its logged-in (or logged out) state with
 each of the listed domains.
+
+### Install
+
+Install with:
+
+    meteor add admithub:shared-auth
